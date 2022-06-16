@@ -1,15 +1,22 @@
 h1 {
-    color: grey;
+    color: black;
     text-align: left;
+    font-size: 20px;
 }
 
 h2 {
 color: red;
 text-align: center;
+font-size: 40px;
 }
 
-h3 {
-color: blue;
-text-align: right;
+table {
+    color: blue;
+    text-align: left;
+    font-size: 15px;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
